@@ -1,27 +1,28 @@
-.body-section-3{
+.menu{
     display: flex;
     flex-direction: column;
+    padding: 2rem 4rem;
+    
 }
-.body-section-3 > h1,.price{
+.menu > h1,.price{
     text-align: center;
 }
 
-.body-section-3 h2{
+.menu h2{
     text-align: center;
 }
-
-
 
 .courses{
     display: flex;
-    gap: 0 3rem;
-    justify-content: space-evenly;
+    justify-content:space-around;
+    background-color: #fffbf3;
 }
 .courses-item{
     display: flex;
     flex-direction: column;
     gap: 20px 0;
     width: 350px;
+    padding: 0 1rem;
 }
 
 
