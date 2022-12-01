@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ 
