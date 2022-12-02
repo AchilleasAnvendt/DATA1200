@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.big{
+    text-align: start;
+    font-size: 10rem;
+    background: url("../Photos/a.jpg") no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text{
+    font-family: 'Roboto Slab', serif;
+}
+.text-dec{
+    width: 50%;
+    font-size: 1.5rem;
+}
