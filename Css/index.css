@@ -67,7 +67,7 @@ body {
 .container{
     display: flex;
     justify-content: space-evenly;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     gap: 1rem;
 }
 
