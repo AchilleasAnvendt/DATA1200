@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
+.grid-container{
+    font-family: 'Roboto Slab', serif; 
+}
+
 .img-container{
     background-image: url("../Photos/f.webp"); 
     background-size: cover;
@@ -13,11 +17,10 @@
 .img-container-inner{
     background-color: #dc2a2a;
    
-    padding: 1.5rem 3rem; 
+    padding: 0.5rem 3rem; 
     
 }
 .text{
-    font-family: 'Roboto Slab', serif; 
     padding: 0 2rem;
 }
 
