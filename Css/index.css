@@ -14,13 +14,6 @@ body {
 
 .header{
     grid-column: 1/-1;
-    height: 100vh;
-    background-image: url("../Photos/a.jpg"); 
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
 }
 
@@ -39,6 +32,17 @@ body {
  
 
 /*---------------------HEADER----------------------*/
+
+.header-container{
+    height: 100vh;
+    background-image: url("../Photos/a.jpg"); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-content{
     width: 50%;
     text-align: center;
@@ -133,12 +137,16 @@ h1{
 
 /*---------------------MENU.CSS-----------------------*/
 
-     .courses{
+    .courses{
         flex-direction: column;
-     }
-     .body-section-3{
+    }
+    .body-section-3{
         align-items: center;
-     }
+    }
 
-    
+/*---------------------TOPIC.CSS-----------------------*/
+ 
+  
+
+
 }

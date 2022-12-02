@@ -1,17 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-.big{
-    text-align: start;
-    font-size: 10rem;
-    background: url("../Photos/a.jpg") no-repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.img-container{
+    background-image: url("../Photos/f.webp"); 
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    border-top: 4px solid rgb(206, 206, 206);
+    display: flex;
+    align-items: end;
 }
 
-.text{
-    font-family: 'Roboto Slab', serif;
+.img-container-inner{
+    background-color: #dc2a2a;
+   
+    padding: 1.5rem 3rem; 
+    
 }
+.text{
+    font-family: 'Roboto Slab', serif; 
+    padding: 0 2rem;
+}
+
+.big{
+    text-align: start;
+    font-size: 9rem;
+    background: url("../Photos/h.jpg") no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
 .text-dec{
-    width: 50%;
+    width: 70%;
     font-size: 1.5rem;
+}
+
+.text-dec a{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.big-letter{
+    font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .text-dec{
+        width: fit-content;
+    }
+    .big{
+        font-size: 5rem;
+    }
 }
