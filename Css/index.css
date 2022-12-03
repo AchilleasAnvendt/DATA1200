@@ -21,8 +21,7 @@ body {
 }
 
 .body{
-    grid-column: 1/-1;
-     
+    grid-column: 1/-1;    
 }
 
 .footer{
@@ -44,12 +43,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    font-size: 2rem;
 }
 
 .header-content{
     width: 50%;
     text-align: center;
+}
+.header-content > p,h1{
+    margin: 0;
 }
 
 /*---------------------BODY------------------------*/
@@ -63,7 +65,9 @@ body {
 .about>h1{
     text-align: start;
 }
-
+.about h1,p {
+    line-height: 2.2;
+}
 .container{
     display: flex;
     justify-content: space-evenly;
@@ -71,6 +75,9 @@ body {
     gap: 1rem;
 }
 
+ .premises ,.services{
+    padding: 3rem 0;
+ }
 
 .container-sub{
     width: 40%;
@@ -112,7 +119,6 @@ h1{
     box-shadow: 0 0 0 0 #fff, 0 0 0 1.5px #1de9b6;
 }
                 
- 
 
 .gallery{
     display: flex;
@@ -121,9 +127,24 @@ h1{
     gap: 1rem;
 }
 
+
+
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
  
+.services-container-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
+.services-container-box > img{
+    width: 128px;
+}
 
 @media only screen and (max-width: 900px) {
     
