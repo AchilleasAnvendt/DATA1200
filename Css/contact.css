@@ -39,3 +39,12 @@
 .area{
     height: 150px;
 }
+.img-holder{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 900px){
+    .form-container{
+        width: 100%;
+    }
+}
