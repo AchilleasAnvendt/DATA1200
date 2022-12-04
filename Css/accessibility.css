@@ -1,0 +1,14 @@
+.container-text{
+    padding: 0 2rem;
+    font-size: 1.5rem;
+}
+.container-text a{
+    color:  blueviolet;
+  
+}
+.red{
+    color: red;
+}
+.big{
+      font-size: 2rem;
+}

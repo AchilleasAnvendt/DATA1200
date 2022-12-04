@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/index.css">
+    <link rel="stylesheet" href="Css/nav.css">
+    <link rel="stylesheet" href="Css/menu.css">
+    <link rel="stylesheet" href="Css/responsive.css">
+    <link rel="stylesheet" href="Css/accessibility.css">
+    <title>Accessibility</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="booking.html">BOOKING</a></li>
+                    <li><a href="topical.html">TOPICAL</a></li>
+                    <li><a href="accessibility.html">ACCESSIBILITY</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="body">
+            <div class="container">
+                <h1>ACCESSIBILITY</h1>
+                <div class="container-text">
+                    <p>The website underwent an accessibility test at <a class="big" href="https://wave.webaim.org/">wave.webaim.org</a>. The pages MENU & TOPICAL
+                        contained no mistakes or corrections. The BOOKING & HOME pages were targeted as needing the most
+                        improvement.</p>
+                    <p>On the HOME page, there were <b class="big">7</b> primary <b class="red">erros</b>. The <b class="big">7</b> faults indicated that an <i>ALT</i> was missing from
+                        the images.</p>
+                    <p>The booking page had eight major <b class="red">mistakes</b>. Two of those were for photos without an <i>ALT </i>attribute,
+                        while the remaining six were for form controls without corresponding <i>labels</i>.</p>
+                </div>
+                <div class="gallery">
+                    <img class="img-holder" alt="alt-missing" src="Photos/home-accessibility-alt-error.JPG">
+                    <img class="img-holder" alt="alt-missing" src="Photos/home-accessibility-alt-missing.JPG">
+                    <img class="img-holder" alt="label-missing" src="Photos/home-accessibility-label-missing.JPG">
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <p>2022@ ClassicalHouse</p>
+        </div>
+    </div>
+</body>
+
+</html>
