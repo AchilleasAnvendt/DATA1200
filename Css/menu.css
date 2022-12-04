@@ -1,10 +1,10 @@
 .img-container{
-    background-image: url("../Photos/9.jpg"); 
+    background-image: url("../Photos/9.jpg"); /*Taken from https://www.wassilioff.no/paskebuffet/ */
     background-size: cover;
     background-position: center;
     height: 70vh;
 }
-
+ 
 .menu{
     display: flex;
     flex-direction: column;

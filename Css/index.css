@@ -40,10 +40,10 @@ h1{
  
 
 /*---------------------HEADER----------------------*/
-
+ 
 .header-container{
     height: 100vh;
-    background-image: url("../Photos/1.jpg"); 
+    background-image: url("../Photos/1.jpg"); /*Taken from https://www.atlantahistorycenter.com/private-events/events-at-swan-house-gardens/ */
     background-size: cover;
     background-position: center;
     display: flex;
