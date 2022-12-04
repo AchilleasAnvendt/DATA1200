@@ -1,9 +1,33 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 1rem;
+    gap: 1rem;
+}
+ 
+.button{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #000021;
+    background: #1de9b6;
+    line-height: 1.15;
+    font-size: 16px;
+}
+ .button:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 1.5px #1de9b6;
+}
+
 .form{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 3rem 0;
-   
 }
 
 .form-container{
@@ -43,8 +67,4 @@
     display: flex;
     align-items: center;
 }
-@media only screen and (max-width: 900px){
-    .form-container{
-        width: 100%;
-    }
-}
+ 

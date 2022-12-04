@@ -1,5 +1,3 @@
- 
-
 .img-container{
     background-image: url("../Photos/f.webp"); 
     background-size: cover;
@@ -12,10 +10,9 @@
 
 .img-container-inner{
     background-color: #dc2a2a;
-   
     padding: 0.5rem 3rem; 
-    
 }
+
 .text{
     padding: 0 2rem;
 }
@@ -41,12 +38,4 @@
 .big-letter{
     font-size: 2.5rem;
 }
-
-@media only screen and (max-width: 900px) {
-    .text-dec{
-        width: fit-content;
-    }
-    .big{
-        font-size: 5rem;
-    }
-}
+ 

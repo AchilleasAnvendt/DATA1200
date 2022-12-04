@@ -6,16 +6,15 @@ html{
     font-family: 'Roboto Slab', serif; 
 }
 
-
 body {
     margin: 0;
 }
 
 h1{
     text-align: center;
- 
 }
- 
+/*------------------------------------------------*/
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -30,11 +29,7 @@ h1{
 .body{
     grid-column: 1/-1;    
 }
-.body h1{
-
-    padding: 2rem 0;
-}
-
+ 
 .footer{
     grid-column: 1/-1;
     display: flex;
@@ -48,7 +43,7 @@ h1{
 
 .header-container{
     height: 100vh;
-    background-image: url("../Photos/a.jpg"); 
+    background-image: url("../Photos/a1.jpg"); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -63,71 +58,36 @@ h1{
 }
 .header-content > p,h1{
     margin: 0;
- 
 }
 
 /*---------------------BODY------------------------*/
+
+.body h1{
+    padding: 2rem 0;
+}
+
 .about{
     background-color: #fffbf3;
     width: 40%;
     padding: 2rem 2.5rem;
     margin: 0 auto;
 }
-
-.about>h1{
-    text-align: start;
-}
+ 
 .about h1,p {
     line-height: 2.2;
 }
-.container{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem 1rem;
-    gap: 1rem;
+
+.about h1{
+    text-align: start;
 }
 
- .premises ,.services{
+.premises ,.services{
     padding: 3rem 0;
- }
+}
 
 .container-sub{
     width: 40%;
 }
-
-.img-holder{
-    width: 30%;
- 
-     
-}
-
-.img-small{
-    width: 100%;
-    height: auto;
-}
-
- 
-
- 
-.button{
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-weight: 600;
-    border-radius: 3px;
-    padding: 12px 24px;
-    border: 0;
-    color: #000021;
-    background: #1de9b6;
-    line-height: 1.15;
-    font-size: 16px;
-}
-
-.button:hover {
-    transition: all .1s ease;
-    box-shadow: 0 0 0 0 #fff, 0 0 0 1.5px #1de9b6;
-}
-                
 
 .gallery{
     display: flex;
@@ -136,6 +96,14 @@ h1{
     gap: 1rem;
 }
 
+.img-holder{
+    width: 30%;    
+}
+
+.img-small{
+    width: 100%;
+    height: auto;
+}
 
 
 .services-container{
@@ -152,51 +120,4 @@ h1{
 
 .services-container-box > img{
     width: 128px;
-}
-
-@media only screen and (max-width: 900px) {
-    
-/*---------------------INDEX.CSS-----------------------*/
-    .container{
-        flex-direction: column;
-    }
-    .container-sub{
-        width: 100%;
-    }
-    #map{
-        width: 100%;
-    }
-    .img-holder{
-        width: 80%;
-        margin: 0 auto;
-    }
-    
-    .button-container{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .about{
-        width: 70%;
-    }
-    
-    .services-container{
-        flex-direction:column;
-    }
-/*---------------------MENU.CSS-----------------------*/
-
-    .courses{
-        flex-direction: column;
-    }
-    .body-section-3{
-        align-items: center;
-    }
-
-/*---------------------TOPIC.CSS-----------------------*/
- 
-
-
-/*---------------------TCONTACT.CSS--------- ----------*/
- 
-
 }

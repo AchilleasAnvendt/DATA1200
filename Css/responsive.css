@@ -1,0 +1,50 @@
+@media only screen and (max-width: 900px) {
+    
+    /*---------------------INDEX.CSS-----------------------*/
+        
+        #map{
+            width: 100%;
+        }
+        .img-holder{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .about{
+            width: 70%;
+        }
+        .services-container{
+            flex-direction:column;
+        }
+    /*---------------------MENU.CSS-----------------------*/
+    
+        .courses{
+            flex-direction: column;
+        }
+    /*---------------------TOPIC.CSS-----------------------*/
+     
+        .text-dec{
+            width: fit-content;
+        }
+        .big{
+            font-size: 5rem;
+        }
+
+    
+    /*---------------------BOOKING.CSS---------------------*/
+        .container{
+            flex-direction: column;
+        }
+        .container-sub{
+            width: 100%;
+        }
+
+        .button-container{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .form-container{
+            width: 100%;
+        }
+    
+    }
+    
