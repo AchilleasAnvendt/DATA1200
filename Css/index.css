@@ -43,7 +43,7 @@ h1{
 
 .header-container{
     height: 100vh;
-    background-image: url("../Photos/a1.jpg"); 
+    background-image: url("../Photos/1.jpg"); 
     background-size: cover;
     background-position: center;
     display: flex;

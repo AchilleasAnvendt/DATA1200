@@ -1,5 +1,5 @@
 .img-container{
-    background-image: url("../Photos/f.webp"); 
+    background-image: url("../Photos/12.webp"); 
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -20,7 +20,7 @@
 .big{
     text-align: start;
     font-size: 9rem;
-    background: url("../Photos/h.jpg") no-repeat;
+    background: url("../Photos/13.jpg") no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
